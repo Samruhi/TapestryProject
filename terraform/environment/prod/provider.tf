@@ -11,9 +11,8 @@ terraform {
         organization = "samterraform"
 
         workspaces {
-            name = "prod"
+            prefix  = "TapestryProject-prod"
         }
-      
     }
   
 }
